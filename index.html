@@ -74,14 +74,11 @@
                 <button onclick="showSection('materials')" id="nav-materials" class="nav-btn px-4 py-2 rounded-md font-medium transition-all duration-300 bg-gray-100 text-gray-700 hover:bg-gray-200">
                     📖 สื่อใบความรู้
                 </button>
-                <button onclick="showSection('songs')" id="nav-songs" class="nav-btn px-4 py-2 rounded-md font-medium transition-all duration-300 bg-gray-100 text-gray-700 hover:bg-gray-200">
-                    🎵 เพลงลูกเสือ
-                </button>
-                <button onclick="showSection('games')" id="nav-games" class="nav-btn px-4 py-2 rounded-md font-medium transition-all duration-300 bg-gray-100 text-gray-700 hover:bg-gray-200">
-                    🎲 เกมลูกเสือ
-                </button>
                 <button onclick="showSection('quiz')" id="nav-quiz" class="nav-btn px-4 py-2 rounded-md font-medium transition-all duration-300 bg-gray-100 text-gray-700 hover:bg-gray-200">
                     📝 แบบทดสอบ
+                </button>
+                <button onclick="showSection('songs-games')" id="nav-songs-games" class="nav-btn px-4 py-2 rounded-md font-medium transition-all duration-300 bg-gray-100 text-gray-700 hover:bg-gray-200">
+                    🎵 เพลงและเกมลูกเสือ
                 </button>
                 <a href="https://jinchanya-boop.github.io/scout/" target="_blank" rel="noopener noreferrer" id="nav-record" class="nav-btn px-4 py-2 rounded-md font-medium transition-all duration-300 bg-gray-100 text-gray-700 hover:bg-gray-200 inline-block">
                     📋 แบบบันทึกกิจกรรม
@@ -115,6 +112,7 @@
                     </h2>
                     <p class="text-green-100 mt-2">เอกสารและสื่อการเรียนรู้สำหรับกิจกรรมลูกเสือแต่ละระดับชั้น</p>
                 </div>
+                
                 <div class="p-6">
                     <div class="grid md:grid-cols-3 gap-6">
                         <div class="bg-blue-50 rounded-lg p-6 card-hover">
@@ -125,13 +123,28 @@
                                 <h3 class="text-xl font-bold text-blue-800">ม.1 - พื้นฐาน</h3>
                             </div>
                             <ul class="space-y-3">
-                                <li class="flex items-center text-gray-700"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>คู่มือระเบียบแถวลูกเสือ</li>
-                                <li class="flex items-center text-gray-700"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>ใบความรู้การผูกเงื่อน 9 แบบ</li>
-                                <li class="flex items-center text-gray-700"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>คำปฏิญาณและกฎลูกเสือ</li>
-                                <li class="flex items-center text-gray-700"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>คู่มือการกางเต็นท์</li>
+                                <li class="flex items-center text-gray-700">
+                                    <span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                                    คู่มือระเบียบแถวลูกเสือ
+                                </li>
+                                <li class="flex items-center text-gray-700">
+                                    <span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                                    ใบความรู้การผูกเงื่อน 9 แบบ
+                                </li>
+                                <li class="flex items-center text-gray-700">
+                                    <span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                                    คำปฏิญาณและกฎลูกเสือ
+                                </li>
+                                <li class="flex items-center text-gray-700">
+                                    <span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
+                                    คู่มือการกางเต็นท์
+                                </li>
                             </ul>
-                            <button class="w-full mt-4 bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">ดาวน์โหลดเอกสาร</button>
+                            <button class="w-full mt-4 bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
+                                ดาวน์โหลดเอกสาร
+                            </button>
                         </div>
+
                         <div class="bg-green-50 rounded-lg p-6 card-hover">
                             <div class="text-center mb-4">
                                 <div class="bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -140,13 +153,28 @@
                                 <h3 class="text-xl font-bold text-green-800">ม.2 - จิตสาธารณะ</h3>
                             </div>
                             <ul class="space-y-3">
-                                <li class="flex items-center text-gray-700"><span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>คู่มือการอ่านแผนที่และเข็มทิศ</li>
-                                <li class="flex items-center text-gray-700"><span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>ใบความรู้นักธรรมชาติวิทยา</li>
-                                <li class="flex items-center text-gray-700"><span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>คู่มือการอนุรักษ์สิ่งแวดล้อม</li>
-                                <li class="flex items-center text-gray-700"><span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>ใบงานนักดาราศาสตร์</li>
+                                <li class="flex items-center text-gray-700">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                                    คู่มือการอ่านแผนที่และเข็มทิศ
+                                </li>
+                                <li class="flex items-center text-gray-700">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                                    ใบความรู้นักธรรมชาติวิทยา
+                                </li>
+                                <li class="flex items-center text-gray-700">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                                    คู่มือการอนุรักษ์สิ่งแวดล้อม
+                                </li>
+                                <li class="flex items-center text-gray-700">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                                    ใบงานนักดาราศาสตร์
+                                </li>
                             </ul>
-                            <button class="w-full mt-4 bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition-colors">ดาวน์โหลดเอกสาร</button>
+                            <button class="w-full mt-4 bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition-colors">
+                                ดาวน์โหลดเอกสาร
+                            </button>
                         </div>
+
                         <div class="bg-purple-50 rounded-lg p-6 card-hover">
                             <div class="text-center mb-4">
                                 <div class="bg-purple-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -155,48 +183,28 @@
                                 <h3 class="text-xl font-bold text-purple-800">ม.3 - ผู้นำ</h3>
                             </div>
                             <ul class="space-y-3">
-                                <li class="flex items-center text-gray-700"><span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>คู่มือการเป็นผู้นำหมู่</li>
-                                <li class="flex items-center text-gray-700"><span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>ใบความรู้นักบุกเบิก</li>
-                                <li class="flex items-center text-gray-700"><span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>คู่มือการจัดกิจกรรมกลุ่ม</li>
-                                <li class="flex items-center text-gray-700"><span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>ใบงานการบริการชุมชน</li>
+                                <li class="flex items-center text-gray-700">
+                                    <span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>
+                                    คู่มือการเป็นผู้นำหมู่
+                                </li>
+                                <li class="flex items-center text-gray-700">
+                                    <span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>
+                                    ใบความรู้นักบุกเบิก
+                                </li>
+                                <li class="flex items-center text-gray-700">
+                                    <span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>
+                                    คู่มือการจัดกิจกรรมกลุ่ม
+                                </li>
+                                <li class="flex items-center text-gray-700">
+                                    <span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>
+                                    ใบงานการบริการชุมชน
+                                </li>
                             </ul>
-                            <button class="w-full mt-4 bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition-colors">ดาวน์โหลดเอกสาร</button>
+                            <button class="w-full mt-4 bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition-colors">
+                                ดาวน์โหลดเอกสาร
+                            </button>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="songs-section" class="section-content hidden">
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
-                <div class="bg-gradient-to-r from-pink-500 to-rose-500 text-white p-6">
-                    <h2 class="text-2xl font-bold flex items-center">
-                        <span class="bg-white/20 p-2 rounded-lg mr-3">🎵</span>
-                        เพลงลูกเสือ
-                    </h2>
-                    <p class="text-rose-100 mt-2">รวมเพลงสำหรับกิจกรรมลูกเสือ เพื่อสร้างความสนุกสนานและความสามัคคี</p>
-                </div>
-                <div class="p-6 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div class="bg-gray-50 p-4 rounded-lg card-hover"><h3 class="font-bold text-lg text-gray-800">เพลงมาร์ชลูกเสือ</h3><p class="text-gray-600 mt-1">เพลงสำหรับเดินสวนสนาม</p><button class="mt-3 bg-rose-500 text-white px-4 py-2 text-sm rounded-lg hover:bg-rose-600 transition-colors">ดูเนื้อเพลง</button></div>
-                    <div class="bg-gray-50 p-4 rounded-lg card-hover"><h3 class="font-bold text-lg text-gray-800">เพลงวชิราวุธรำลึก</h3><p class="text-gray-600 mt-1">เพลงประจำคณะลูกเสือแห่งชาติ</p><button class="mt-3 bg-rose-500 text-white px-4 py-2 text-sm rounded-lg hover:bg-rose-600 transition-colors">ดูเนื้อเพลง</button></div>
-                    <div class="bg-gray-50 p-4 rounded-lg card-hover"><h3 class="font-bold text-lg text-gray-800">เพลงรอบกองไฟ</h3><p class="text-gray-600 mt-1">เพลงสำหรับกิจกรรมรอบกองไฟ</p><button class="mt-3 bg-rose-500 text-white px-4 py-2 text-sm rounded-lg hover:bg-rose-600 transition-colors">ดูเนื้อเพลง</button></div>
-                </div>
-            </div>
-        </div>
-
-        <div id="games-section" class="section-content hidden">
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
-                <div class="bg-gradient-to-r from-amber-500 to-orange-500 text-white p-6">
-                    <h2 class="text-2xl font-bold flex items-center">
-                        <span class="bg-white/20 p-2 rounded-lg mr-3">🎲</span>
-                        เกมลูกเสือ
-                    </h2>
-                    <p class="text-orange-100 mt-2">กิจกรรมเกมเพื่อสันทนาการและสร้างทักษะการทำงานเป็นทีม</p>
-                </div>
-                <div class="p-6 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div class="bg-gray-50 p-4 rounded-lg card-hover"><h3 class="font-bold text-lg text-gray-800">เกมเชือกมนุษย์</h3><p class="text-gray-600 mt-1">เกมแก้ปมเชือก ฝึกการแก้ปัญหา</p><button class="mt-3 bg-orange-500 text-white px-4 py-2 text-sm rounded-lg hover:bg-orange-600 transition-colors">ดูวิธีเล่น</button></div>
-                    <div class="bg-gray-50 p-4 rounded-lg card-hover"><h3 class="font-bold text-lg text-gray-800">เกมส่งของ</h3><p class="text-gray-600 mt-1">เกมฝึกความสามัคคีและการสื่อสาร</p><button class="mt-3 bg-orange-500 text-white px-4 py-2 text-sm rounded-lg hover:bg-orange-600 transition-colors">ดูวิธีเล่น</button></div>
-                    <div class="bg-gray-50 p-4 rounded-lg card-hover"><h3 class="font-bold text-lg text-gray-800">เกมล่าสมบัติ</h3><p class="text-gray-600 mt-1">เกมฝึกการสังเกตและการใช้แผนที่</p><button class="mt-3 bg-orange-500 text-white px-4 py-2 text-sm rounded-lg hover:bg-orange-600 transition-colors">ดูวิธีเล่น</button></div>
                 </div>
             </div>
         </div>
@@ -204,99 +212,471 @@
         <div id="quiz-section" class="section-content hidden">
             <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
                 <div class="bg-gradient-to-r from-orange-600 to-orange-700 text-white p-6">
-                    <h2 class="text-2xl font-bold flex items-center"><span class="bg-white/20 p-2 rounded-lg mr-3">📝</span>แบบทดสอบลูกเสือ</h2>
+                    <h2 class="text-2xl font-bold flex items-center">
+                        <span class="bg-white/20 p-2 rounded-lg mr-3">📝</span>
+                        แบบทดสอบลูกเสือ
+                    </h2>
                     <p class="text-orange-100 mt-2">แบบทดสอบความรู้และทักษะลูกเสือสำหรับแต่ละระดับชั้น</p>
                 </div>
+                
                 <div class="p-6">
                     <div class="grid md:grid-cols-2 gap-6">
                         <div class="bg-gray-50 rounded-lg p-6 card-hover">
                             <div class="flex items-center mb-4">
-                                <div class="bg-gray-600 text-white w-12 h-12 rounded-full flex items-center justify-center mr-4"><span class="text-xl">📋</span></div>
-                                <div><h3 class="text-xl font-bold text-gray-800">แบบทดสอบก่อนเรียน</h3><p class="text-gray-600">ประเมินความรู้พื้นฐาน</p></div>
+                                <div class="bg-gray-600 text-white w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                    <span class="text-xl">📋</span>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-800">แบบทดสอบก่อนเรียน</h3>
+                                    <p class="text-gray-600">ประเมินความรู้พื้นฐาน</p>
+                                </div>
                             </div>
                             <div class="space-y-3 mb-4">
-                                <div class="flex justify-between"><span class="text-gray-700">ม.1 - พื้นฐาน</span><span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm">20 ข้อ</span></div>
-                                <div class="flex justify-between"><span class="text-gray-700">ม.2 - จิตสาธารณะ</span><span class="bg-green-100 text-green-800 px-2 py-1 rounded text-sm">25 ข้อ</span></div>
-                                <div class="flex justify-between"><span class="text-gray-700">ม.3 - ผู้นำ</span><span class="bg-purple-100 text-purple-800 px-2 py-1 rounded text-sm">30 ข้อ</span></div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-700">ม.1 - พื้นฐาน</span>
+                                    <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm">20 ข้อ</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-700">ม.2 - จิตสาธารณะ</span>
+                                    <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-sm">25 ข้อ</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-700">ม.3 - ผู้นำ</span>
+                                    <span class="bg-purple-100 text-purple-800 px-2 py-1 rounded text-sm">30 ข้อ</span>
+                                </div>
                             </div>
-                            <button class="w-full bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">เริ่มทำแบบทดสอบ</button>
+                            <button class="w-full bg-gray-600 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
+                                เริ่มทำแบบทดสอบ
+                            </button>
                         </div>
+
                         <div class="bg-orange-50 rounded-lg p-6 card-hover">
                             <div class="flex items-center mb-4">
-                                <div class="bg-orange-600 text-white w-12 h-12 rounded-full flex items-center justify-center mr-4"><span class="text-xl">🏆</span></div>
-                                <div><h3 class="text-xl font-bold text-orange-800">แบบทดสอบหลังเรียน</h3><p class="text-orange-600">ประเมินผลการเรียนรู้</p></div>
+                                <div class="bg-orange-600 text-white w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                    <span class="text-xl">🏆</span>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-orange-800">แบบทดสอบหลังเรียน</h3>
+                                    <p class="text-orange-600">ประเมินผลการเรียนรู้</p>
+                                </div>
                             </div>
                             <div class="space-y-3 mb-4">
-                                <div class="flex justify-between"><span class="text-gray-700">ม.1 - พื้นฐาน</span><span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm">25 ข้อ</span></div>
-                                <div class="flex justify-between"><span class="text-gray-700">ม.2 - จิตสาธารณะ</span><span class="bg-green-100 text-green-800 px-2 py-1 rounded text-sm">30 ข้อ</span></div>
-                                <div class="flex justify-between"><span class="text-gray-700">ม.3 - ผู้นำ</span><span class="bg-purple-100 text-purple-800 px-2 py-1 rounded text-sm">35 ข้อ</span></div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-700">ม.1 - พื้นฐาน</span>
+                                    <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm">25 ข้อ</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-700">ม.2 - จิตสาธารณะ</span>
+                                    <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-sm">30 ข้อ</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-700">ม.3 - ผู้นำ</span>
+                                    <span class="bg-purple-100 text-purple-800 px-2 py-1 rounded text-sm">35 ข้อ</span>
+                                </div>
                             </div>
-                            <button class="w-full bg-orange-600 text-white py-2 px-4 rounded-lg hover:bg-orange-700 transition-colors">เริ่มทำแบบทดสอบ</button>
+                            <button class="w-full bg-orange-600 text-white py-2 px-4 rounded-lg hover:bg-orange-700 transition-colors">
+                                เริ่มทำแบบทดสอบ
+                            </button>
                         </div>
                     </div>
+
                     <div class="mt-8">
                         <h3 class="text-xl font-bold text-gray-800 mb-4">หัวข้อการทดสอบ</h3>
                         <div class="grid md:grid-cols-4 gap-4">
-                            <div class="bg-blue-100 p-4 rounded-lg text-center"><div class="text-2xl mb-2">⚡</div><div class="font-medium text-blue-800">ระเบียบแถว</div></div>
-                            <div class="bg-green-100 p-4 rounded-lg text-center"><div class="text-2xl mb-2">🪢</div><div class="font-medium text-green-800">การผูกเงื่อน</div></div>
-                            <div class="bg-purple-100 p-4 rounded-lg text-center"><div class="text-2xl mb-2">🧭</div><div class="font-medium text-purple-800">แผนที่เข็มทิศ</div></div>
-                            <div class="bg-orange-100 p-4 rounded-lg text-center"><div class="text-2xl mb-2">🏕️</div><div class="font-medium text-orange-800">การอยู่ค่าย</div></div>
+                            <div class="bg-blue-100 p-4 rounded-lg text-center">
+                                <div class="text-2xl mb-2">⚡</div>
+                                <div class="font-medium text-blue-800">ระเบียบแถว</div>
+                            </div>
+                            <div class="bg-green-100 p-4 rounded-lg text-center">
+                                <div class="text-2xl mb-2">🪢</div>
+                                <div class="font-medium text-green-800">การผูกเงื่อน</div>
+                            </div>
+                            <div class="bg-purple-100 p-4 rounded-lg text-center">
+                                <div class="text-2xl mb-2">🧭</div>
+                                <div class="font-medium text-purple-800">แผนที่เข็มทิศ</div>
+                            </div>
+                            <div class="bg-orange-100 p-4 rounded-lg text-center">
+                                <div class="text-2xl mb-2">🏕️</div>
+                                <div class="font-medium text-orange-800">การอยู่ค่าย</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div id="record-section" class="section-content hidden">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
+                <div class="bg-gradient-to-r from-teal-600 to-teal-700 text-white p-6">
+                    <h2 class="text-2xl font-bold flex items-center">
+                        <span class="bg-white/20 p-2 rounded-lg mr-3">📋</span>
+                        แบบบันทึกกิจกรรม
+                    </h2>
+                    <p class="text-teal-100 mt-2">แบบฟอร์มสำหรับบันทึกผลการเข้าร่วมกิจกรรมและประเมินทักษะ</p>
+                </div>
+                
+                <div class="p-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="bg-teal-50 rounded-lg p-6 card-hover">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-teal-600 text-white w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                    <span class="text-xl">📅</span>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-teal-800">บันทึกรายวัน</h3>
+                                    <p class="text-teal-600">บันทึกกิจกรรมในแต่ละวัน</p>
+                                </div>
+                            </div>
+                            <ul class="space-y-2 mb-4 text-gray-700">
+                                <li>• บันทึกการเข้าร่วมกิจกรรม</li>
+                                <li>• ประเมินความเข้าใจ</li>
+                                <li>• บันทึกปัญหาและข้อเสนอแนะ</li>
+                                <li>• ลงชื่อผู้ควบคุม</li>
+                            </ul>
+                            <a href="https://jinchanya-boop.github.io/scout/" target="_blank" rel="noopener noreferrer" class="block w-full bg-teal-600 text-white py-2 px-4 rounded-lg hover:bg-teal-700 transition-colors text-center">
+                                เปิดแบบฟอร์มบันทึก
+                            </a>
+                        </div>
+
+                        <div class="bg-indigo-50 rounded-lg p-6 card-hover">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-indigo-600 text-white w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                    <span class="text-xl">⭐</span>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-indigo-800">ประเมินทักษะ</h3>
+                                    <p class="text-indigo-600">แบบประเมินความสามารถ</p>
+                                </div>
+                            </div>
+                            <ul class="space-y-2 mb-4 text-gray-700">
+                                <li>• ประเมินทักษะเฉพาะด้าน</li>
+                                <li>• บันทึกผลการปฏิบัติ</li>
+                                <li>• ให้คะแนนและข้อเสนอแนะ</li>
+                                <li>• สรุปผลการเรียนรู้</li>
+                            </ul>
+                            <a href="https://jinchanya-boop.github.io/scout/" target="_blank" rel="noopener noreferrer" class="block w-full bg-indigo-600 text-white py-2 px-4 rounded-lg hover:bg-indigo-700 transition-colors text-center">
+                                เปิดแบบประเมินทักษะ
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="mt-8">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">แบบฟอร์มตามระดับชั้น</h3>
+                        <div class="overflow-x-auto">
+                            <table class="w-full bg-white rounded-lg shadow">
+                                <thead class="bg-gray-50">
+                                    <tr>
+                                        <th class="text-left py-3 px-4 font-medium text-gray-700">ระดับชั้น</th>
+                                        <th class="text-left py-3 px-4 font-medium text-gray-700">แบบบันทึกรายวัน</th>
+                                        <th class="text-left py-3 px-4 font-medium text-gray-700">แบบประเมินทักษะ</th>
+                                        <th class="text-left py-3 px-4 font-medium text-gray-700">สรุปผลรวม</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="border-t">
+                                        <td class="py-3 px-4 font-medium">📚 ม.1 - พื้นฐาน</td>
+                                        <td class="py-3 px-4">
+                                            <a href="https://jinchanya-boop.github.io/scout/" target="_blank" rel="noopener noreferrer" class="bg-blue-100 text-blue-800 px-3 py-1 rounded text-sm hover:bg-blue-200 inline-block">เปิดแบบฟอร์ม</a>
+                                        </td>
+                                        <td class="py-3 px-4">
+                                            <a href="https://jinchanya-boop.github.io/scout/" target="_blank" rel="noopener noreferrer" class="bg-blue-100 text-blue-800 px-3 py-1 rounded text-sm hover:bg-blue-200 inline-block">เปิดแบบฟอร์ม</a>
+                                        </td>
+                                        <td class="py-3 px-4">
+                                            <a href="https://jinchanya-boop.github.io/scout/" target="_blank" rel="noopener noreferrer" class="bg-blue-100 text-blue-800 px-3 py-1 rounded text-sm hover:bg-blue-200 inline-block">เปิดแบบฟอร์ม</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-t">
+                                        <td class="py-3 px-4 font-medium">🎯 ม.2 - จิตสาธารณะ</td>
+                                        <td class="py-3 px-4">
+                                            <a href="https://jinchanya-boop.github.io/scout/" target="_blank" rel="noopener noreferrer" class="bg-green-100 text-green-800 px-3 py-1 rounded text-sm hover:bg-green-200 inline-block">เปิดแบบฟอร์ม</a>
+                                        </td>
+                                        <td class="py-3 px-4">
+                                            <a href="https://jinchanya-boop.github.io/scout/" target="_blank" rel="noopener noreferrer" class="bg-green-100 text-green-800 px-3 py-1 rounded text-sm hover:bg-green-200 inline-block">เปิดแบบฟอร์ม</a>
+                                        </td>
+                                        <td class="py-3 px-4">
+                                            <a href="https://jinchanya-boop.github.io/scout/" target="_blank" rel="noopener noreferrer" class="bg-green-100 text-green-800 px-3 py-1 rounded text-sm hover:bg-green-200 inline-block">เปิดแบบฟอร์ม</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-t">
+                                        <td class="py-3 px-4 font-medium">👑 ม.3 - ผู้นำ</td>
+                                        <td class="py-3 px-4">
+                                            <a href="https://jinchanya-boop.github.io/scout/" target="_blank" rel="noopener noreferrer" class="bg-purple-100 text-purple-800 px-3 py-1 rounded text-sm hover:bg-purple-200 inline-block">เปิดแบบฟอร์ม</a>
+                                        </td>
+                                        <td class="py-3 px-4">
+                                            <a href="https://jinchanya-boop.github.io/scout/" target="_blank" rel="noopener noreferrer" class="bg-purple-100 text-purple-800 px-3 py-1 rounded text-sm hover:bg-purple-200 inline-block">เปิดแบบฟอร์ม</a>
+                                        </td>
+                                        <td class="py-3 px-4">
+                                            <a href="https://jinchanya-boop.github.io/scout/" target="_blank" rel="noopener noreferrer" class="bg-purple-100 text-purple-800 px-3 py-1 rounded text-sm hover:bg-purple-200 inline-block">เปิดแบบฟอร์ม</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="songs-games-section" class="section-content hidden">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
+                <div class="bg-gradient-to-r from-indigo-600 to-violet-700 text-white p-6">
+                    <h2 class="text-2xl font-bold flex items-center">
+                        <span class="bg-white/20 p-2 rounded-lg mr-3">🎵</span>
+                        เพลงและเกมลูกเสือ
+                    </h2>
+                    <p class="text-indigo-100 mt-2">แหล่งรวมเพลงและเกมสำหรับกิจกรรมนันทนาการและเสริมสร้างทักษะ</p>
+                </div>
+                
+                <div class="p-6 space-y-8">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4 border-l-4 border-indigo-500 pl-4">เพลงลูกเสือ</h3>
+                        <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-6">
+                            <div class="bg-indigo-50 rounded-lg p-6 card-hover">
+                                <h4 class="text-xl font-bold text-indigo-800 mb-2">เพลง วชิราวุธรำลึก</h4>
+                                <pre class="text-gray-700 whitespace-pre-wrap font-sans">วชิราวุธพระมงกุฎเกล้าเจ้าประชา
+ก่อกำเนิดลูกเสือมาข้าเลื่อมใส
+พวกเราลูกเสือเชื้อชาติไทย
+เทิดเกียรติพระองค์ไว้ด้วยภักดี
+
+ลูกเสือรำลึกนึกถึงพระคุณ
+เทิดบูชาปฏิญานรักกษัตริย์
+ชาติศาสนาเราเทิดทูน
+เราจะบำรุงให้รุ่งเรือง</pre>
+                            </div>
+                             <div class="bg-violet-50 rounded-lg p-6 card-hover">
+                                <h4 class="text-xl font-bold text-violet-800 mb-2">เพลง รอบกองไฟ</h4>
+                                <pre class="text-gray-700 whitespace-pre-wrap font-sans">(สร้อย) โอ เมื่อมีไฟ ไฟ ไฟ ลุกขึ้นแจ่มจ้า
+สุขอุราเมื่อเรามาพร้อมหน้ากัน
+คืนวันนี้มีสุขปลดเปลื้องทุกข์รับความสำราญ
+เธอกับฉันนั้นมาเล่นรอบกองไฟ
+
+ไฟมันลุกมีความร้อนไม่อาทรความร้อนของไฟ
+ไฟจะลุกจะร้อนเพียงใด สุขฤทัยร่วมวงเฮฮา (สร้อย)</pre>
+                            </div>
+                             <div class="bg-purple-50 rounded-lg p-6 card-hover">
+                                <h4 class="text-xl font-bold text-purple-800 mb-2">เพลง ลูกเสือจับมือ</h4>
+                                <pre class="text-gray-700 whitespace-pre-wrap font-sans">ลูกเสือเขาไม่จับมือขวา
+ยื่นซ้ายมาจับมือกันมั่น
+มือขวาใช้เคารพกัน
+มือขวาใช้เคารพกัน
+ยื่นซ้ายออกมาพลันจับมือ จับมือ
+
+จับมือนั้นหมายถึงมิตร
+เหมือนญาติสนิทที่ควรนับถือ
+ยิ้มด้วยเมื่อยามจับมือ
+ยิ้มด้วยเมื่อยามจับมือ
+เพราะเราคือลูกเสือด้วยกัน</pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4 border-l-4 border-violet-500 pl-4">เกมลูกเสือ</h3>
+                        <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-6">
+                            <div class="bg-gray-50 rounded-lg p-6 card-hover border border-gray-200">
+                                <h4 class="text-xl font-bold text-gray-800 mb-2">ลิงชิงหลัก</h4>
+                                <p class="font-semibold text-gray-700">วัตถุประสงค์:</p>
+                                <p class="text-gray-600 mb-3">ฝึกความว่องไว การสังเกต และการตัดสินใจ</p>
+                                <p class="font-semibold text-gray-700">วิธีการเล่น:</p>
+                                <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                    <li>ผู้เล่นหา "หลัก" (เช่น ต้นไม้, กองหิน) ให้มีจำนวนน้อยกว่าผู้เล่น 1 หลัก</li>
+                                    <li>ผู้ที่ไม่มีหลักจะเป็น "ลิง" อยู่ตรงกลางวง</li>
+                                    <li>ผู้เล่นคนอื่นต้องสลับหลักกันไปมา โดยไม่ให้ลิงแย่งหลักได้</li>
+                                    <li>ถ้าลิงแย่งหลักได้ คนที่ถูกแย่งต้องมาเป็นลิงแทน</li>
+                                </ul>
+                            </div>
+                            <div class="bg-gray-50 rounded-lg p-6 card-hover border border-gray-200">
+                                <h4 class="text-xl font-bold text-gray-800 mb-2">ส่งข่าว</h4>
+                                <p class="font-semibold text-gray-700">วัตถุประสงค์:</p>
+                                <p class="text-gray-600 mb-3">ฝึกการสื่อสาร ความจำ และการทำงานเป็นทีม</p>
+                                <p class="font-semibold text-gray-700">วิธีการเล่น:</p>
+                                <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                    <li>แบ่งผู้เล่นเป็น 2 ทีมขึ้นไป เข้าแถวตอนลึก</li>
+                                    <li>ผู้คุมเกมจะกระซิบบอก "ข้อความ" ให้คนแรกของแต่ละทีม</li>
+                                    <li>เมื่อได้ยินสัญญาณ ให้คนแรกกระซิบข้อความต่อให้คนที่สอง... ไปจนถึงคนสุดท้าย</li>
+                                    <li>คนสุดท้ายของทีมที่ได้รับข้อความแล้ว ให้วิ่งไปบอกผู้คุมเกม</li>
+                                    <li>ทีมที่บอกข้อความได้ถูกต้องและรวดเร็วที่สุดเป็นผู้ชนะ</li>
+                                </ul>
+                            </div>
+                            <div class="bg-gray-50 rounded-lg p-6 card-hover border border-gray-200">
+                                <h4 class="text-xl font-bold text-gray-800 mb-2">ล่าลายแทง</h4>
+                                <p class="font-semibold text-gray-700">วัตถุประสงค์:</p>
+                                <p class="text-gray-600 mb-3">ฝึกการใช้แผนที่ เข็มทิศ การแก้ปัญหา และความสามัคคี</p>
+                                <p class="font-semibold text-gray-700">วิธีการเล่น:</p>
+                                <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                    <li>ผู้คุมเกมสร้าง "ลายแทง" หรือคำใบ้ซ่อนไว้ตามจุดต่างๆ</li>
+                                    <li>แบ่งลูกเสือเป็นหมู่ๆ และแจกคำใบ้แรกให้</li>
+                                    <li>แต่ละหมู่ต้องไขปริศนาเพื่อเดินทางไปยังจุดต่อไป และหาคำใบ้ใหม่</li>
+                                    <li>หมู่ที่สามารถเดินทางไปถึงจุดหมายสุดท้าย (ขุมทรัพย์) ได้ก่อนเป็นผู้ชนะ</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div id="grade-1" class="grade-content">
             <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
                 <div class="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-6">
-                    <h2 class="text-2xl font-bold flex items-center"><span class="bg-white/20 p-2 rounded-lg mr-3">📚</span>ระดับชั้น ม.1 - พื้นฐานระเบียบวินัยและค่านิยมลูกเสือ</h2>
+                    <h2 class="text-2xl font-bold flex items-center">
+                        <span class="bg-white/20 p-2 rounded-lg mr-3">📚</span>
+                        ระดับชั้น ม.1 - พื้นฐานระเบียบวินัยและค่านิยมลูกเสือ
+                    </h2>
                 </div>
+                
                 <div class="p-6 border-b border-gray-200">
-                    <div class="flex items-center mb-4"><span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันแรก</span><h3 class="text-xl font-semibold text-gray-800">พื้นฐานระเบียบวินัยและค่านิยมลูกเสือ</h3></div>
+                    <div class="flex items-center mb-4">
+                        <span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันแรก</span>
+                        <h3 class="text-xl font-semibold text-gray-800">พื้นฐานระเบียบวินัยและค่านิยมลูกเสือ</h3>
+                    </div>
+                    
                     <div class="overflow-x-auto">
                         <table class="w-full">
-                            <thead><tr class="bg-gray-50"><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th></tr></thead>
+                            <thead>
+                                <tr class="bg-gray-50">
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th>
+                                </tr>
+                            </thead>
                             <tbody>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td><td class="py-3 px-4 border-b font-medium">พิธีเปิดการเข้าค่าย / ชี้แจงวัตถุประสงค์</td><td class="py-3 px-4 border-b text-gray-600">-</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–10.00</span></td><td class="py-3 px-4 border-b font-medium">ระเบียบแถวลูกเสือ</td><td class="py-3 px-4 border-b text-gray-600">การฝึกบุคคลท่ามือเปล่า / ท่ามีอาวุธ</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">10.00–11.00</span></td><td class="py-3 px-4 border-b font-medium">การใช้สัญญาณมือ – สัญญาณนกหวีด</td><td class="py-3 px-4 border-b text-gray-600">ฝึกใช้สัญญาณในสถานการณ์จริง</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">11.00–12.00</span></td><td class="py-3 px-4 border-b font-medium">คำปฏิญาณ กฎ และคติพจน์</td><td class="py-3 px-4 border-b text-gray-600">ความหมาย / ตัวอย่างการประพฤติ</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.30</span></td><td class="py-3 px-4 border-b font-medium">เงื่อนพื้นฐาน 9 เงื่อน</td><td class="py-3 px-4 border-b text-gray-600">ผูกแน่น – ปฏิบัติจริง</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.30–15.30</span></td><td class="py-3 px-4 border-b font-medium">การบรรจุเครื่องหลัง</td><td class="py-3 px-4 border-b text-gray-600">ฝึกจัดสัมภาระจำลอง</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.30–16.00</span></td><td class="py-3 px-4 font-medium">สรุป–ประเมิน–พิธีปิดวันแรก</td><td class="py-3 px-4 text-gray-600">ทบทวนความรู้</td></tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">พิธีเปิดการเข้าค่าย / ชี้แจงวัตถุประสงค์</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–10.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">ระเบียบแถวลูกเสือ</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">การฝึกบุคคลท่ามือเปล่า / ท่ามีอาวุธ</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">10.00–11.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">การใช้สัญญาณมือ – สัญญาณนกหวีด</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ฝึกใช้สัญญาณในสถานการณ์จริง</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">11.00–12.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">คำปฏิญาณ กฎ และคติพจน์</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ความหมาย / ตัวอย่างการประพฤติ</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">เงื่อนพื้นฐาน 9 เงื่อน</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ผูกแน่น – ปฏิบัติจริง</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.30–15.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">การบรรจุเครื่องหลัง</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ฝึกจัดสัมภาระจำลอง</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.30–16.00</span></td>
+                                    <td class="py-3 px-4 font-medium">สรุป–ประเมิน–พิธีปิดวันแรก</td>
+                                    <td class="py-3 px-4 text-gray-600">ทบทวนความรู้</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
+
                 <div class="p-6 border-b border-gray-200">
-                    <div class="flex items-center mb-4"><span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันที่สอง</span><h3 class="text-xl font-semibold text-gray-800">ทักษะการอยู่ค่ายและเอาตัวรอด</h3></div>
+                    <div class="flex items-center mb-4">
+                        <span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันที่สอง</span>
+                        <h3 class="text-xl font-semibold text-gray-800">ทักษะการอยู่ค่ายและเอาตัวรอด</h3>
+                    </div>
+                    
                     <div class="overflow-x-auto">
                         <table class="w-full">
-                            <thead><tr class="bg-gray-50"><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th></tr></thead>
+                            <thead>
+                                <tr class="bg-gray-50">
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th>
+                                </tr>
+                            </thead>
                             <tbody>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td><td class="py-3 px-4 border-b font-medium">รวมแถว – สวดมนต์ – เคารพธงชาติ</td><td class="py-3 px-4 border-b text-gray-600">-</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–10.30</span></td><td class="py-3 px-4 border-b font-medium">การกางและรื้อเต็นท์</td><td class="py-3 px-4 border-b text-gray-600">ปฏิบัติจริงในสนาม</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">10.30–12.00</span></td><td class="py-3 px-4 border-b font-medium">การก่อไฟและปรุงอาหารกลางแจ้ง</td><td class="py-3 px-4 border-b text-gray-600">ฝึกทำอาหารง่าย ๆ</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.30</span></td><td class="py-3 px-4 border-b font-medium">แผนที่และเข็มทิศ</td><td class="py-3 px-4 border-b text-gray-600">การอ่านแผนที่ / หาทิศทางจริง</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.30–15.30</span></td><td class="py-3 px-4 border-b font-medium">การปฐมพยาบาลเบื้องต้น</td><td class="py-3 px-4 border-b text-gray-600">ฝึกพันผ้า / ปฐมพยาบาลบาดแผล</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.30–16.00</span></td><td class="py-3 px-4 font-medium">สรุปกิจกรรม</td><td class="py-3 px-4 text-gray-600">แบบทดสอบสั้น</td></tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">รวมแถว – สวดมนต์ – เคารพธงชาติ</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–10.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">การกางและรื้อเต็นท์</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ปฏิบัติจริงในสนาม</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">10.30–12.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">การก่อไฟและปรุงอาหารกลางแจ้ง</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ฝึกทำอาหารง่าย ๆ</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">แผนที่และเข็มทิศ</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">การอ่านแผนที่ / หาทิศทางจริง</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.30–15.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">การปฐมพยาบาลเบื้องต้น</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ฝึกพันผ้า / ปฐมพยาบาลบาดแผล</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.30–16.00</span></td>
+                                    <td class="py-3 px-4 font-medium">สรุปกิจกรรม</td>
+                                    <td class="py-3 px-4 text-gray-600">แบบทดสอบสั้น</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
+
                 <div class="p-6">
-                    <div class="flex items-center mb-4"><span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันที่สาม</span><h3 class="text-xl font-semibold text-gray-800">นักผจญภัยและการปฏิบัติจริง</h3></div>
+                    <div class="flex items-center mb-4">
+                        <span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันที่สาม</span>
+                        <h3 class="text-xl font-semibold text-gray-800">นักผจญภัยและการปฏิบัติจริง</h3>
+                    </div>
+                    
                     <div class="overflow-x-auto">
                         <table class="w-full">
-                            <thead><tr class="bg-gray-50"><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th></tr></thead>
+                            <thead>
+                                <tr class="bg-gray-50">
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th>
+                                </tr>
+                            </thead>
                             <tbody>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td><td class="py-3 px-4 border-b font-medium">รวมแถว / เตรียมเดินทางไกล</td><td class="py-3 px-4 border-b text-gray-600">-</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–12.00</span></td><td class="py-3 px-4 border-b font-medium">วิชานักผจญภัย (เดินทางไกล – ตั้งค่ายย่อย)</td><td class="py-3 px-4 border-b text-gray-600">ปฏิบัติจริง</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.00</span></td><td class="py-3 px-4 border-b font-medium">วิชาลมฟ้าอากาศและฤดูกาล</td><td class="py-3 px-4 border-b text-gray-600">สังเกตทิศทางลม / ท้องฟ้า</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.00–15.00</span></td><td class="py-3 px-4 border-b font-medium">วิชาผู้พิทักษ์ป่า</td><td class="py-3 px-4 border-b text-gray-600">ปลูกต้นไม้ – เก็บขยะ</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.00–15.30</span></td><td class="py-3 px-4 border-b font-medium">การประดับเครื่องหมายลูกเสือโลก</td><td class="py-3 px-4 border-b text-gray-600">-</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.30–16.00</span></td><td class="py-3 px-4 font-medium">ทดสอบภาคทฤษฎี / พิธีปิดค่าย</td><td class="py-3 px-4 text-gray-600">มอบเกียรติบัตร</td></tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">รวมแถว / เตรียมเดินทางไกล</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–12.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">วิชานักผจญภัย (เดินทางไกล – ตั้งค่ายย่อย)</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ปฏิบัติจริง</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">วิชาลมฟ้าอากาศและฤดูกาล</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">สังเกตทิศทางลม / ท้องฟ้า</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.00–15.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">วิชาผู้พิทักษ์ป่า</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ปลูกต้นไม้ – เก็บขยะ</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.00–15.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">การประดับเครื่องหมายลูกเสือโลก</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.30–16.00</span></td>
+                                    <td class="py-3 px-4 font-medium">ทดสอบภาคทฤษฎี / พิธีปิดค่าย</td>
+                                    <td class="py-3 px-4 text-gray-600">มอบเกียรติบัตร</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -307,52 +687,160 @@
         <div id="grade-2" class="grade-content hidden">
             <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
                 <div class="bg-gradient-to-r from-green-600 to-green-700 text-white p-6">
-                    <h2 class="text-2xl font-bold flex items-center"><span class="bg-white/20 p-2 rounded-lg mr-3">🎯</span>ระดับชั้น ม.2 - การเป็นลูกเสือที่มีระเบียบและมีจิตสาธารณะ</h2>
+                    <h2 class="text-2xl font-bold flex items-center">
+                        <span class="bg-white/20 p-2 rounded-lg mr-3">🎯</span>
+                        ระดับชั้น ม.2 - การเป็นลูกเสือที่มีระเบียบและมีจิตสาธารณะ
+                    </h2>
                 </div>
+                
                 <div class="p-6 border-b border-gray-200">
-                    <div class="flex items-center mb-4"><span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันแรก</span><h3 class="text-xl font-semibold text-gray-800">การเป็นลูกเสือที่มีระเบียบและมีจิตสาธารณะ</h3></div>
+                    <div class="flex items-center mb-4">
+                        <span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันแรก</span>
+                        <h3 class="text-xl font-semibold text-gray-800">การเป็นลูกเสือที่มีระเบียบและมีจิตสาธารณะ</h3>
+                    </div>
+                    
                     <div class="overflow-x-auto">
                         <table class="w-full">
-                            <thead><tr class="bg-gray-50"><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th></tr></thead>
+                            <thead>
+                                <tr class="bg-gray-50">
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th>
+                                </tr>
+                            </thead>
                             <tbody>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td><td class="py-3 px-4 border-b font-medium">พิธีเปิด / ระเบียบแถว</td><td class="py-3 px-4 border-b text-gray-600">ทำความเคารพ / สวนสนามเบื้องต้น</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–10.30</span></td><td class="py-3 px-4 border-b font-medium">หน้าที่พลเมือง</td><td class="py-3 px-4 border-b text-gray-600">บทบาทลูกเสือที่ดี</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">10.30–12.00</span></td><td class="py-3 px-4 border-b font-medium">สิ่งแวดล้อม</td><td class="py-3 px-4 border-b text-gray-600">การอนุรักษ์ทรัพยากร</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.30</span></td><td class="py-3 px-4 border-b font-medium">นักสะกดรอย</td><td class="py-3 px-4 border-b text-gray-600">ฝึกสังเกต / การตามรอย</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.30–15.30</span></td><td class="py-3 px-4 border-b font-medium">สมรรถภาพทางกาย</td><td class="py-3 px-4 border-b text-gray-600">ฐานกีฬา / การอบอุ่นร่างกาย</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.30–16.00</span></td><td class="py-3 px-4 font-medium">สรุปกิจกรรมวันแรก</td><td class="py-3 px-4 text-gray-600">แบบทดสอบย่อย</td></tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">พิธีเปิด / ระเบียบแถว</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ทำความเคารพ / สวนสนามเบื้องต้น</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–10.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">หน้าที่พลเมือง</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">บทบาทลูกเสือที่ดี</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">10.30–12.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">สิ่งแวดล้อม</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">การอนุรักษ์ทรัพยากร</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">นักสะกดรอย</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ฝึกสังเกต / การตามรอย</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.30–15.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">สมรรถภาพทางกาย</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ฐานกีฬา / การอบอุ่นร่างกาย</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.30–16.00</span></td>
+                                    <td class="py-3 px-4 font-medium">สรุปกิจกรรมวันแรก</td>
+                                    <td class="py-3 px-4 text-gray-600">แบบทดสอบย่อย</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
+
                 <div class="p-6 border-b border-gray-200">
-                    <div class="flex items-center mb-4"><span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันที่สอง</span><h3 class="text-xl font-semibold text-gray-800">ทักษะเชิงผจญภัยและความรู้รอบตัว</h3></div>
+                    <div class="flex items-center mb-4">
+                        <span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันที่สอง</span>
+                        <h3 class="text-xl font-semibold text-gray-800">ทักษะเชิงผจญภัยและความรู้รอบตัว</h3>
+                    </div>
+                    
                     <div class="overflow-x-auto">
                         <table class="w-full">
-                            <thead><tr class="bg-gray-50"><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th></tr></thead>
+                            <thead>
+                                <tr class="bg-gray-50">
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th>
+                                </tr>
+                            </thead>
                             <tbody>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td><td class="py-3 px-4 border-b font-medium">รวมแถว / เคารพธงชาติ</td><td class="py-3 px-4 border-b text-gray-600">-</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–10.30</span></td><td class="py-3 px-4 border-b font-medium">แผนที่ทหารและเข็มทิศ</td><td class="py-3 px-4 border-b text-gray-600">ใช้แผนที่เชิงภูมิประเทศ</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">10.30–12.00</span></td><td class="py-3 px-4 border-b font-medium">การเดินทางสำรวจ</td><td class="py-3 px-4 border-b text-gray-600">ปฏิบัติจริงในพื้นที่</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.00</span></td><td class="py-3 px-4 border-b font-medium">นักธรรมชาติวิทยา</td><td class="py-3 px-4 border-b text-gray-600">สำรวจพันธุ์ไม้ / สัตว์</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.00–15.00</span></td><td class="py-3 px-4 border-b font-medium">นักดาราศาสตร์</td><td class="py-3 px-4 border-b text-gray-600">สังเกตดวงอาทิตย์ / ดวงดาว</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.00–16.00</span></td><td class="py-3 px-4 font-medium">การแสดงออกทางศิลปะ</td><td class="py-3 px-4 text-gray-600">จัดกิจกรรมกลุ่ม / แสดงละครสั้น</td></tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">รวมแถว / เคารพธงชาติ</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–10.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">แผนที่ทหารและเข็มทิศ</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ใช้แผนที่เชิงภูมิประเทศ</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">10.30–12.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">การเดินทางสำรวจ</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ปฏิบัติจริงในพื้นที่</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">นักธรรมชาติวิทยา</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">สำรวจพันธุ์ไม้ / สัตว์</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.00–15.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">นักดาราศาสตร์</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">สังเกตดวงอาทิตย์ / ดวงดาว</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.00–16.00</span></td>
+                                    <td class="py-3 px-4 font-medium">การแสดงออกทางศิลปะ</td>
+                                    <td class="py-3 px-4 text-gray-600">จัดกิจกรรมกลุ่ม / แสดงละครสั้น</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
+
                 <div class="p-6">
-                    <div class="flex items-center mb-4"><span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันที่สาม</span><h3 class="text-xl font-semibold text-gray-800">การแสดงพลังลูกเสือและความภาคภูมิใจ</h3></div>
+                    <div class="flex items-center mb-4">
+                        <span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันที่สาม</span>
+                        <h3 class="text-xl font-semibold text-gray-800">การแสดงพลังลูกเสือและความภาคภูมิใจ</h3>
+                    </div>
+                    
                     <div class="overflow-x-auto">
                         <table class="w-full">
-                            <thead><tr class="bg-gray-50"><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th></tr></thead>
+                            <thead>
+                                <tr class="bg-gray-50">
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th>
+                                </tr>
+                            </thead>
                             <tbody>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td><td class="py-3 px-4 border-b font-medium">รวมแถว / เพลงลูกเสือ</td><td class="py-3 px-4 border-b text-gray-600">-</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–10.30</span></td><td class="py-3 px-4 border-b font-medium">นักกรีฑา</td><td class="py-3 px-4 border-b text-gray-600">การแข่งวิ่ง / กีฬาเบา</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">10.30–12.00</span></td><td class="py-3 px-4 border-b font-medium">นักแสดงการบันเทิง</td><td class="py-3 px-4 border-b text-gray-600">การแสดงกลุ่ม</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.30</span></td><td class="py-3 px-4 border-b font-medium">นักผจญภัย / ทดสอบรวม</td><td class="py-3 px-4 border-b text-gray-600">เดินทางจำลอง–ผ่านฐานทักษะ</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.30–15.30</span></td><td class="py-3 px-4 border-b font-medium">เครื่องหมายลูกเสือชั้นพิเศษ</td><td class="py-3 px-4 border-b text-gray-600">อธิบายขั้นตอน</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.30–16.00</span></td><td class="py-3 px-4 font-medium">สอบภาคทฤษฎี / พิธีปิด</td><td class="py-3 px-4 text-gray-600">มอบประกาศนียบัตร</td></tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">รวมแถว / เพลงลูกเสือ</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–10.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">นักกรีฑา</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">การแข่งวิ่ง / กีฬาเบา</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">10.30–12.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">นักแสดงการบันเทิง</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">การแสดงกลุ่ม</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">นักผจญภัย / ทดสอบรวม</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">เดินทางจำลอง–ผ่านฐานทักษะ</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.30–15.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">เครื่องหมายลูกเสือชั้นพิเศษ</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">อธิบายขั้นตอน</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.30–16.00</span></td>
+                                    <td class="py-3 px-4 font-medium">สอบภาคทฤษฎี / พิธีปิด</td>
+                                    <td class="py-3 px-4 text-gray-600">มอบประกาศนียบัตร</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -363,54 +851,170 @@
         <div id="grade-3" class="grade-content hidden">
             <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
                 <div class="bg-gradient-to-r from-purple-600 to-purple-700 text-white p-6">
-                    <h2 class="text-2xl font-bold flex items-center"><span class="bg-white/20 p-2 rounded-lg mr-3">👑</span>ระดับชั้น ม.3 - ความเป็นผู้นำและพลเมืองดี</h2>
+                    <h2 class="text-2xl font-bold flex items-center">
+                        <span class="bg-white/20 p-2 rounded-lg mr-3">👑</span>
+                        ระดับชั้น ม.3 - ความเป็นผู้นำและพลเมืองดี
+                    </h2>
                 </div>
+                
                 <div class="p-6 border-b border-gray-200">
-                    <div class="flex items-center mb-4"><span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันแรก</span><h3 class="text-xl font-semibold text-gray-800">ความเป็นผู้นำและพลเมืองดี</h3></div>
+                    <div class="flex items-center mb-4">
+                        <span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันแรก</span>
+                        <h3 class="text-xl font-semibold text-gray-800">ความเป็นผู้นำและพลเมืองดี</h3>
+                    </div>
+                    
                     <div class="overflow-x-auto">
                         <table class="w-full">
-                            <thead><tr class="bg-gray-50"><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th></tr></thead>
+                            <thead>
+                                <tr class="bg-gray-50">
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th>
+                                </tr>
+                            </thead>
                             <tbody>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td><td class="py-3 px-4 border-b font-medium">พิธีเปิด / สวนสนาม</td><td class="py-3 px-4 border-b text-gray-600">-</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–10.00</span></td><td class="py-3 px-4 border-b font-medium">หน้าที่พลเมือง</td><td class="py-3 px-4 border-b text-gray-600">การมีส่วนร่วมในสังคม</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">10.00–11.00</span></td><td class="py-3 px-4 border-b font-medium">วิชาการฝึกเป็นผู้นำ</td><td class="py-3 px-4 border-b text-gray-600">บทบาทผู้นำหมู่ลูกเสือ</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">11.00–12.00</span></td><td class="py-3 px-4 border-b font-medium">ระเบียบแถวขั้นสูง</td><td class="py-3 px-4 border-b text-gray-600">ฝึกสั่งแถว / สวนสนาม</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.30</span></td><td class="py-3 px-4 border-b font-medium">วิชานักบุกเบิก</td><td class="py-3 px-4 border-b text-gray-600">สร้างสิ่งก่อสร้างง่าย ๆ</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.30–15.30</span></td><td class="py-3 px-4 border-b font-medium">วิชาอนุรักษ์ธรรมชาติ</td><td class="py-3 px-4 border-b text-gray-600">ปลูกต้นไม้ / ทำความสะอาดพื้นที่</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.30–16.00</span></td><td class="py-3 px-4 font-medium">สรุปวันแรก</td><td class="py-3 px-4 text-gray-600">แบบประเมิน</td></tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">พิธีเปิด / สวนสนาม</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–10.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">หน้าที่พลเมือง</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">การมีส่วนร่วมในสังคม</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">10.00–11.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">วิชาการฝึกเป็นผู้นำ</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">บทบาทผู้นำหมู่ลูกเสือ</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">11.00–12.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">ระเบียบแถวขั้นสูง</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ฝึกสั่งแถว / สวนสนาม</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">วิชานักบุกเบิก</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">สร้างสิ่งก่อสร้างง่าย ๆ</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.30–15.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">วิชาอนุรักษ์ธรรมชาติ</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ปลูกต้นไม้ / ทำความสะอาดพื้นที่</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.30–16.00</span></td>
+                                    <td class="py-3 px-4 font-medium">สรุปวันแรก</td>
+                                    <td class="py-3 px-4 text-gray-600">แบบประเมิน</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
+
                 <div class="p-6 border-b border-gray-200">
-                    <div class="flex items-center mb-4"><span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันที่สอง</span><h3 class="text-xl font-semibold text-gray-800">วิชาทักษะเฉพาะทางลูกเสืออาวุโส</h3></div>
+                    <div class="flex items-center mb-4">
+                        <span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันที่สอง</span>
+                        <h3 class="text-xl font-semibold text-gray-800">วิชาทักษะเฉพาะทางลูกเสืออาวุโส</h3>
+                    </div>
+                    
                     <div class="overflow-x-auto">
                         <table class="w-full">
-                            <thead><tr class="bg-gray-50"><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th></tr></thead>
+                            <thead>
+                                <tr class="bg-gray-50">
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th>
+                                </tr>
+                            </thead>
                             <tbody>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td><td class="py-3 px-4 border-b font-medium">รวมแถว / สวดมนต์</td><td class="py-3 px-4 border-b text-gray-600">-</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–10.00</span></td><td class="py-3 px-4 border-b font-medium">วิชานักอุตุนิยมวิทยา</td><td class="py-3 px-4 border-b text-gray-600">การพยากรณ์อากาศเบื้องต้น</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">10.00–11.00</span></td><td class="py-3 px-4 border-b font-medium">การเดินทางสำรวจ</td><td class="py-3 px-4 border-b text-gray-600">วางแผนเส้นทางจริง</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">11.00–12.00</span></td><td class="py-3 px-4 border-b font-medium">วิชาพลาธิการ</td><td class="py-3 px-4 border-b text-gray-600">การจัดอาหาร / เสบียง</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.00</span></td><td class="py-3 px-4 border-b font-medium">การกางเต็นท์ / การอยู่ค่าย</td><td class="py-3 px-4 border-b text-gray-600">ปฏิบัติจริง</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.00–15.00</span></td><td class="py-3 px-4 border-b font-medium">เกมและเพลงลูกเสือ</td><td class="py-3 px-4 border-b text-gray-600">ฝึกความสามัคคี</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.00–16.00</span></td><td class="py-3 px-4 font-medium">การบริการ</td><td class="py-3 px-4 text-gray-600">ช่วยเหลือชุมชนหรือโรงเรียน</td></tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">รวมแถว / สวดมนต์</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–10.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">วิชานักอุตุนิยมวิทยา</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">การพยากรณ์อากาศเบื้องต้น</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">10.00–11.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">การเดินทางสำรวจ</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">วางแผนเส้นทางจริง</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">11.00–12.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">วิชาพลาธิการ</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">การจัดอาหาร / เสบียง</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">การกางเต็นท์ / การอยู่ค่าย</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ปฏิบัติจริง</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.00–15.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">เกมและเพลงลูกเสือ</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ฝึกความสามัคคี</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.00–16.00</span></td>
+                                    <td class="py-3 px-4 font-medium">การบริการ</td>
+                                    <td class="py-3 px-4 text-gray-600">ช่วยเหลือชุมชนหรือโรงเรียน</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
+
                 <div class="p-6">
-                    <div class="flex items-center mb-4"><span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันที่สาม</span><h3 class="text-xl font-semibold text-gray-800">สรุปภาคปฏิบัติและการประเมินผล</h3></div>
+                    <div class="flex items-center mb-4">
+                        <span class="day-badge text-white px-4 py-2 rounded-full text-sm font-medium mr-3">วันที่สาม</span>
+                        <h3 class="text-xl font-semibold text-gray-800">สรุปภาคปฏิบัติและการประเมินผล</h3>
+                    </div>
+                    
                     <div class="overflow-x-auto">
                         <table class="w-full">
-                            <thead><tr class="bg-gray-50"><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th><th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th></tr></thead>
+                            <thead>
+                                <tr class="bg-gray-50">
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เวลา</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">กิจกรรม</th>
+                                    <th class="text-left py-3 px-4 font-medium text-gray-700 border-b">เนื้อหาหลัก</th>
+                                </tr>
+                            </thead>
                             <tbody>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td><td class="py-3 px-4 border-b font-medium">รวมแถว / เตรียมกิจกรรม</td><td class="py-3 px-4 border-b text-gray-600">-</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–11.00</span></td><td class="py-3 px-4 border-b font-medium">การจัดงานแสดงศิลปะในที่สาธารณะ</td><td class="py-3 px-4 border-b text-gray-600">การแสดงกลุ่มลูกเสือ</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">11.00–12.00</span></td><td class="py-3 px-4 border-b font-medium">การอาหาร (ประกวดเมนูค่าย)</td><td class="py-3 px-4 border-b text-gray-600">ฝึกจัดการอาหารกลางแจ้ง</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.30</span></td><td class="py-3 px-4 border-b font-medium">สมรรถภาพทางกาย / วิ่งผลัด</td><td class="py-3 px-4 border-b text-gray-600">ทดสอบความแข็งแรง</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.30–15.30</span></td><td class="py-3 px-4 border-b font-medium">ทดสอบภาคทฤษฎี</td><td class="py-3 px-4 border-b text-gray-600">สอบรวม</td></tr>
-                                <tr class="schedule-row"><td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.30–16.00</span></td><td class="py-3 px-4 font-medium">พิธีปิดค่าย / มอบเกียรติบัตร</td><td class="py-3 px-4 text-gray-600">กล่าวคำปฏิญาณ / เพลงลูกเสือ</td></tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">08.30–09.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">รวมแถว / เตรียมกิจกรรม</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">-</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">09.00–11.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">การจัดงานแสดงศิลปะในที่สาธารณะ</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">การแสดงกลุ่มลูกเสือ</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">11.00–12.00</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">การอาหาร (ประกวดเมนูค่าย)</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ฝึกจัดการอาหารกลางแจ้ง</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">13.00–14.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">สมรรถภาพทางกาย / วิ่งผลัด</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">ทดสอบความแข็งแรง</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4 border-b"><span class="time-badge text-white px-2 py-1 rounded text-sm">14.30–15.30</span></td>
+                                    <td class="py-3 px-4 border-b font-medium">ทดสอบภาคทฤษฎี</td>
+                                    <td class="py-3 px-4 border-b text-gray-600">สอบรวม</td>
+                                </tr>
+                                <tr class="schedule-row">
+                                    <td class="py-3 px-4"><span class="time-badge text-white px-2 py-1 rounded text-sm">15.30–16.00</span></td>
+                                    <td class="py-3 px-4 font-medium">พิธีปิดค่าย / มอบเกียรติบัตร</td>
+                                    <td class="py-3 px-4 text-gray-600">กล่าวคำปฏิญาณ / เพลงลูกเสือ</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -422,7 +1026,9 @@
     <footer class="bg-gray-800 text-white py-8 px-4 mt-12">
         <div class="max-w-6xl mx-auto text-center">
             <div class="flex items-center justify-center mb-4">
-                <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z"/></svg>
+                <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z"/>
+                </svg>
                 <h3 class="text-xl font-semibold">โรงเรียนสา</h3>
             </div>
             <p class="text-gray-300 mb-2">กำหนดการเรียนรู้ลูกเสือแบบบล็อกคอร์ส</p>
@@ -432,53 +1038,71 @@
 
     <script>
         function showSection(section) {
+            // Hide all sections
             const sections = document.querySelectorAll('.section-content, .grade-content');
             sections.forEach(content => content.classList.add('hidden'));
             
+            // Hide/show schedule tabs based on section
             const scheduleTabs = document.getElementById('schedule-tabs');
             if (section === 'schedule') {
                 scheduleTabs.classList.remove('hidden');
+                // Show default grade 1 content
                 document.getElementById('grade-1').classList.remove('hidden');
-                showGrade(1); // Ensure the first tab is active
             } else {
                 scheduleTabs.classList.add('hidden');
-                const sectionElement = document.getElementById(`${section}-section`);
-                if(sectionElement) {
-                    sectionElement.classList.remove('hidden');
-                }
+                // Show selected section
+                document.getElementById(`${section}-section`).classList.remove('hidden');
             }
             
+            // Update navigation styles
             const navBtns = document.querySelectorAll('.nav-btn');
             navBtns.forEach(btn => {
                 btn.classList.remove('bg-blue-600', 'text-white');
                 btn.classList.add('bg-gray-100', 'text-gray-700', 'hover:bg-gray-200');
             });
             
+            // Activate selected nav button
             const activeNav = document.getElementById(`nav-${section}`);
-            if(activeNav) {
-                activeNav.classList.add('bg-blue-600', 'text-white');
-                activeNav.classList.remove('bg-gray-100', 'text-gray-700', 'hover:bg-gray-200');
-            }
+            activeNav.classList.add('bg-blue-600', 'text-white');
+            activeNav.classList.remove('bg-gray-100', 'text-gray-700', 'hover:bg-gray-200');
+            
+            // Smooth scroll to content
+            document.querySelector('.max-w-6xl').scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
         }
 
         function showGrade(grade) {
+            // Hide all grade contents
             const contents = document.querySelectorAll('.grade-content');
             contents.forEach(content => content.classList.add('hidden'));
+            
+            // Show selected grade content
             document.getElementById(`grade-${grade}`).classList.remove('hidden');
             
+            // Update tab styles
             const tabs = document.querySelectorAll('.tab-btn');
             tabs.forEach(tab => {
                 tab.classList.remove('tab-active');
                 tab.classList.add('bg-gray-100', 'text-gray-700', 'hover:bg-gray-200');
             });
             
+            // Activate selected tab
             const activeTab = document.getElementById(`tab-${grade}`);
             activeTab.classList.add('tab-active');
             activeTab.classList.remove('bg-gray-100', 'text-gray-700', 'hover:bg-gray-200');
+            
+            // Smooth scroll to content
+            document.querySelector('.max-w-6xl').scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
         }
         
+        // Add smooth scrolling for better UX
         document.addEventListener('DOMContentLoaded', function() {
-            showSection('schedule');
+            // Add loading animation
             document.body.style.opacity = '0';
             setTimeout(() => {
                 document.body.style.transition = 'opacity 0.5s ease-in-out';
